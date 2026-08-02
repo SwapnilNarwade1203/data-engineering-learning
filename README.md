@@ -89,9 +89,14 @@
 | 06 | 📊 Aggregations | COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING | 🔜 Coming Soon | — |
 | 07 | 🧩 Subqueries & CTEs | Correlated Subqueries, WITH clause, Recursive CTEs | 🔜 Coming Soon | — |
 | 08 | 🪟 Window Functions | ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, NTILE, PARTITION BY | 🔜 Coming Soon | — |
-| 09 | ⚡ Indexing & Optimization | B-Tree Index, Query Plans, EXPLAIN ANALYZE, covering indexes | 🔜 Coming Soon | — |
+### 🗂️ Phase 4 — ETL & Data Engineering Pipelines
+
+| # | Topic | Topics Covered | Status | Notes |
+|---|-------|---------------|--------|-------|
+| 01 | [⚙️ ETL & Data Engineering Master Notes](./etl/README.md) | ETL vs ELT, Python DB Extraction, PySpark, Snowpark, High-Watermarking, FAANG Interview Q&A | ✅ Complete | [ETL Guide](./etl/README.md) |
 
 ---
+
 
 ## 🏗️ What Each Chapter Contains
 
