@@ -11,8 +11,8 @@
 | 01 | [📘 Introduction to Python](./Chapter-01-Introduction-to-Python/README.md) | What is Python, Interpreter vs Compiler, CPython, Bytecode, PVM, Execution Flow | ✅ |
 | 02 | [🗂️ Variables, Data Types & Memory Model](./Chapter-02-Variables-and-DataTypes/README.md) | int, float, str, bool, None, id(), is vs ==, mutability, type casting, int cache | ✅ |
 | 03 | [🔁 Mutable vs Immutable Objects](./Chapter-03-Mutable-vs-Immutable/README.md) | Aliasing, shallow/deep copy, pass-by-object-reference, `+=` behavior, memory diagrams | ✅ |
-| 04 | 🧩 Functions & Scope | def, args, kwargs, *args, **kwargs, LEGB, closures | 🔜 |
-| 05 | 📦 Data Structures | list, tuple, dict, set — internals & complexity | 🔜 |
+| 04 | 📦 Control Flow | if/elif/else, for, while, break, continue, pass, nested loops | 🔜 |
+| 05 | [💬 Input, Output & Type Conversion](./Chapter-05-Input-Output-TypeConversion/README.md) | input() internals, print() deep dive, f-strings, type casting, input validation | ✅ |
 | 06 | 🔤 Strings Deep Dive | Immutability, slicing, formatting, methods | 🔜 |
 | 07 | 🏗️ OOP in Python | Classes, objects, inheritance, dunder methods, MRO | 🔜 |
 | 08 | ⚠️ Error Handling | try/except/finally, custom exceptions, traceback | 🔜 |
@@ -37,6 +37,8 @@ Python-Journey/
 │   └── README.md   ← Variables, types, id(), is vs ==, type casting
 ├── Chapter-03-Mutable-vs-Immutable/
 │   └── README.md   ← Aliasing, shallow/deep copy, memory diagrams
+├── Chapter-05-Input-Output-TypeConversion/
+│   └── README.md   ← input() internals, print(), f-strings, validation
 └── (more chapters coming...)
 ```
 
