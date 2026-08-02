@@ -48,20 +48,13 @@
 │  ├── Ch 08 · Window Functions (ROW_NUMBER, RANK, LAG…)          │
 │  └── Ch 09 · Indexing & Query Optimization                      │
 │                                                                  │
-│  Phase 2: Python for Data Engineering      ← NEW 🐍              │
-│  ├── Ch 01 · Introduction to Python (Bytecode, PVM, CPython)    │
-│  ├── Ch 02 · Variables, Data Types & Memory Model               │
-│  ├── Ch 03 · Functions, Scope & Closures                        │
-│  ├── Ch 04 · OOP, Decorators & Generators                       │
-│  └── Ch 05 · Python for Data Engineering (Pandas, PySpark)      │
-│                                                                  │
-│  Phase 3: Snowflake & Cloud Warehousing  [Coming Soon]          │
+│  Phase 2: Snowflake & Cloud Warehousing  [Coming Soon]          │
 │  ├── Snowflake Architecture & Virtual Warehouses                │
 │  ├── Loading Data: COPY INTO, Snowpipe, External Stages         │
 │  ├── AWS S3 → Snowflake Integration                             │
 │  └── Time Travel, Fail-safe & Zero-copy Cloning                 │
 │                                                                  │
-│  Phase 4: dbt & Analytics Engineering    [Coming Soon]          │
+│  Phase 3: dbt & Analytics Engineering    [Coming Soon]          │
 │  ├── dbt Models: Staging → Intermediate → Mart                  │
 │  ├── Materializations & Incremental Models                      │
 │  ├── dbt Tests, Documentation & Lineage                         │
@@ -96,21 +89,14 @@
 | 06 | 📊 Aggregations | COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING | 🔜 Coming Soon | — |
 | 07 | 🧩 Subqueries & CTEs | Correlated Subqueries, WITH clause, Recursive CTEs | 🔜 Coming Soon | — |
 | 08 | 🪟 Window Functions | ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, NTILE, PARTITION BY | 🔜 Coming Soon | — |
-| 09 | ⚡ Indexing & Optimization | B-Tree Index, Query Plans, EXPLAIN ANALYZE, covering indexes | 🔜 Coming Soon | — |
+### 🗂️ Phase 4 — ETL & Data Engineering Pipelines
+
+| # | Topic | Topics Covered | Status | Notes |
+|---|-------|---------------|--------|-------|
+| 01 | [⚙️ ETL & Data Engineering Master Notes](./etl/README.md) | ETL vs ELT, Python DB Extraction, PySpark, Snowpark, High-Watermarking, FAANG Interview Q&A | ✅ Complete | [ETL Guide](./etl/README.md) |
 
 ---
 
-### 🐍 Phase 2 — Python Journey
-
-| # | Chapter | Topics Covered | Status | Notes |
-|---|---------|---------------|--------|-------|
-| 01 | [📘 Introduction to Python](./Python-Journey/Chapter-01-Introduction-to-Python/README.md) | What is Python, High-level/Interpreted/General-purpose, CPython, Bytecode, PVM, Execution Flow, FAANG Q&A | ✅ Complete | — |
-| 02 | 🗂️ Variables, Data Types & Memory | int, float, str, bool, None, id(), is vs ==, mutability | 🔜 Coming Soon | — |
-| 03 | 🔁 Control Flow | if/elif/else, for, while, break, continue, pass | 🔜 Coming Soon | — |
-| 04 | 🧩 Functions & Scope | def, args, kwargs, LEGB, closures, lambda | 🔜 Coming Soon | — |
-| 05 | 📦 Data Structures | list, tuple, dict, set — internals & Big-O | 🔜 Coming Soon | — |
-
----
 
 ## 🏗️ What Each Chapter Contains
 
@@ -220,11 +206,11 @@ CREATE TABLE Enrollments (
 | Phase | Progress | Chapters Done |
 |-------|----------|--------------|
 | 🗄️ SQL Foundations | `███░░░░░░░` 33% | 3 / 9 |
-| 🐍 Python Journey | `█░░░░░░░░░` 20% | 1 / 5 |
 | ☁️ Snowflake & Cloud | `░░░░░░░░░░` 0% | 0 / 4 |
 | 🔧 dbt Engineering | `░░░░░░░░░░` 0% | 0 / 4 |
+| 🐍 Python for DE | `░░░░░░░░░░` 0% | 0 / 3 |
 | 🚀 Orchestration | `░░░░░░░░░░` 0% | 0 / 3 |
-| **Overall** | **`█░░░░░░░░░` 16%** | **4 / 25** |
+| **Overall** | **`█░░░░░░░░░` 13%** | **3 / 23** |
 
 ---
 
