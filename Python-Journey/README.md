@@ -9,7 +9,7 @@
 | # | Chapter | Topics | Status |
 |---|---------|--------|--------|
 | 01 | [📘 Introduction to Python](./Chapter-01-Introduction-to-Python/README.md) | What is Python, Interpreter vs Compiler, CPython, Bytecode, PVM, Execution Flow | ✅ |
-| 02 | 🗂️ Variables, Data Types & Memory Model | int, float, str, bool, None, id(), is vs ==, mutability | 🔜 |
+| 02 | [🗂️ Variables, Data Types & Memory Model](./Chapter-02-Variables-and-DataTypes/README.md) | int, float, str, bool, None, id(), is vs ==, mutability, type casting, int cache | ✅ |
 | 03 | 🔁 Control Flow | if/elif/else, for, while, break, continue, pass | 🔜 |
 | 04 | 🧩 Functions & Scope | def, args, kwargs, *args, **kwargs, LEGB, closures | 🔜 |
 | 05 | 📦 Data Structures | list, tuple, dict, set — internals & complexity | 🔜 |
